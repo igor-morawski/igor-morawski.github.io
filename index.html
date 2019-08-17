@@ -33,9 +33,12 @@ https://github.com/BlackrockDigital/startbootstrap-freelancer
 
 </head>
 
+
 <body id="page-top">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top" id="mainNav">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top" id="navbarResponsive">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Igor Morawski</span>
             <span class="d-none d-lg-block">
@@ -173,6 +176,9 @@ https://github.com/BlackrockDigital/startbootstrap-freelancer
             <div class="w-100">
                 <h2 class="mb-5">Skills</h2>
 
+                <a href="#" data-toggle="tooltip" title="Some text">Hover over me</a>
+
+
                 <div class="subheading mb-3">Programming Languages</div>
                 <ul class="list-inline">
                     <li class="list-inline-item"><i class="fa fa-circle"></i> Python
@@ -251,6 +257,12 @@ https://github.com/BlackrockDigital/startbootstrap-freelancer
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            $("[rel='tooltip']").tooltip();
+        });
+    </script>
 
 </body>
 
