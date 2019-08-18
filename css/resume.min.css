@@ -242,7 +242,7 @@ section.resume-section .resume-item .resume-date {
         min-height: 0
     }
     section.resume-section-landing {
-        min-height: 100vh
+        min-height: 80vh
     }
     section.resume-section .resume-item .resume-date {
         min-width: 18rem
