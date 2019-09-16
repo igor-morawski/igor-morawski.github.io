@@ -120,31 +120,23 @@ https://github.com/BlackrockDigital/startbootstrap-freelancer
                     <div class="col-sm-6 flex align-self-center gif">
                         <div class="row">
                             <center>
-                                <img src="https://raw.githubusercontent.com/igor-morawski/FIR_dataset/master/examples/falling0.gif" class="img-fluid float-center w-15" hspace="5" vspace="5">
-                                <img src="https://raw.githubusercontent.com/igor-morawski/FIR_dataset/master/examples/standup1.gif" class="img-fluid float-center w-15" hspace="5" vspace="5">
-                                <img src="https://raw.githubusercontent.com/igor-morawski/FIR_dataset/master/examples/walk1.gif" class="img-fluid float-center w-15" hspace="5" vspace="5">
-                                <img src="https://raw.githubusercontent.com/igor-morawski/FIR_dataset/master/examples/sit2.gif" class="img-fluid float-center w-15" hspace="5" vspace="5"></center>
+                                <img src="https://raw.githubusercontent.com/igor-morawski/FIR_dataset/master/examples/falling0.gif" data-toggle="tooltip" title="Falling (16×16 px)" class="img-fluid float-center w-15" hspace="5" vspace="5">
+                                <img src="https://raw.githubusercontent.com/igor-morawski/FIR_dataset/master/examples/standup1.gif" data-toggle="tooltip" title="Standing up (16×16 px)" class="img-fluid float-center w-15" hspace="5" vspace="5">
+                                <img src="https://raw.githubusercontent.com/igor-morawski/FIR_dataset/master/examples/walk1.gif" data-toggle="tooltip" title="Walking (16×16 px)" class="img-fluid float-center w-15" hspace="5" vspace="5">
+                                <img src="https://raw.githubusercontent.com/igor-morawski/FIR_dataset/master/examples/sit2.gif" data-toggle="tooltip" title="Sitting (16×16 px)" class="img-fluid float-center w-15" hspace="5" vspace="5"></center>
                         </div>
                     </div>
                     <div class="col-sm-6 align-self-center ">
-                        <p class="lead mt-5">The topic of my research revolves around understanding exteremly low-resolution video captured by thermopile array sensor in monitoring systems. Thermopile array sensor is a far infrared sensor that can capture temperature distribution
+                        <p class="lead mt-5">The topic of my research revolves around understanding exteremly low-resolution video captured by thermopile sensor array in monitoring systems. Thermopile sensor array is a far infrared sensor that can capture temperature distribution
                             in form of exteremly low-resolution image (8×8 px, 16×16 px, etc). Altogether, it is virtually impossible to identify a person in the image caputered by the sensor. Because of that the sensor does not raise privacy concerns
-                            like high-resolution cameras and does not require the subjects to use wearables on constant basis. However, the infromation contained in data is extremly limited and, because of the mechanism of sensing, very noisy. This far,
-                            I have sucsessfuly implemented two-stream architecture for deep learning (with spatial and temporal stream).
+                            like high-resolution cameras and does not require the subjects to use wearables on constant basis. However, the infromation contained in data is extremly limited and, because of the mechanism of sensing, very noisy.
+                            <br><br> I have proposed a new method for thermopile sensor array action recognition that outperformed related works. To this end, I have sucsessfuly developed two-stream architecture for deep learning: CNN + stacked GRUs with
+                            spatial and temporal branches and tested the method on the FIR dataset proposed by Nagoya University. The dataset includes actions: walking, sitting down, standing up, falling down, sitting, lying and standing.
+                            <br><br> Currently, I work towards extending the system to use mutliple thermopile sensor arrays (multi-view) and collecting dataset to analyze behavior of subjects to increase the safety of patients.
                         </p>
                     </div>
                 </div>
-                <h3 class="mb-0">Project b</h3>
-                <div class="row mb-5 mt-2">
-                    <div class="col-sm-6 align-self-center ">
-                        <img src="img/project-b.jpg" class="img-fluid float-left">
-                    </div>
-                    <div class="col-sm-6 align-self-center">
-                        <p class="lead mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                    </div>
-                </div>
+
                 <h3 class="mb-0">Tram Anti-collision System Project</h3>
                 <div class="row mb-5 mt-2">
                     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 align-self-center col-centered">
@@ -181,17 +173,17 @@ https://github.com/BlackrockDigital/startbootstrap-freelancer
                     </div>
                     <div class="col col-sm-12 col-md-12 col-lg-8 col-xl-8 align-self-center">
                         <p class="lead">
-                            During my study at the Avionics Institute in the Military University of Technology, I have developed strong technical and science skills in the fields related to Aerospace Engineering, especially mathematics, physics, electronics, control theory, embedded
-                            systems, microcontrollers, metrology and sensors.
-                            <br> I had a chance to work as a team member of the industry collaborative project realized by the Avionics Institute. The goal of this industry collaborative project was to design a tram anti-collision system to be employed
-                            in one of the major Polish cities. My main task involved researching the possibility of employing Computer Vision to develop such a system. In particular, I was responsible for proposing a method to measure the distance to
-                            the obstacle on the tracks based on a single camera (other than using markers).
-                            <br> Obstacle was defined as any object crossing the rails constituting a collision threat to the tram. Because in World Coordinate System distance between the rails is constant, the distance to the object can be calculated
-                            based on this property. The preliminary method I proposed was to calculate HOG in order to detect rails. Next, the flood fill algorithm was to determine the position of an obstacle along the rails, allowing for the calculation
+                            During my study at the Avionics Institute in the Military University of Technology in Warsaw, I have developed strong technical and science skills in the fields related to Aerospace Engineering, especially mathematics, physics, electronics, control theory,
+                            embedded systems, microcontrollers, metrology and sensors.
+                            <br><br>I also had a chance to work as a team member of the industry collaborative project realized by the Avionics Institute. The goal of this industry collaborative project was to design a tram anti-collision system to be
+                            employed in one of the major Polish cities. My main task involved researching the possibility of employing Computer Vision to develop such a system. In particular, I was responsible for proposing a method to measure the distance
+                            to the obstacle on the tracks based on a single camera (other than using markers).
+                            <br><br> Obstacle was defined as any object crossing the rails constituting a collision threat to the tram. Because in World Coordinate System distance between the rails is constant, the distance to the object can be calculated
+                            based on this property. The preliminary method I proposed was to calculate HOG in order to detect rails. Next, the flood fill algorithm was used to determine the position of an obstacle along the rails, allowing for the calculation
                             of the distance between the rails at this point, and obtaining information about the distance between the tram and the obstacle. I implemented this method in C++ using OpenCV and prototyped on Odroid U3 in combination with
                             a Basler industrial camera. The results of this preliminary method were satisfactory and considered for further development. The biggest advantage of this method over other methods such as using markers was that it allowed
                             detecting any sort of object on the collision course irrespectively to its category.
-                            <br> This project was a chance for me to realize my interest in research and concentrate on computer vision in my future career.
+                            <br><br> This project was a chance for me to realize my interest in research and concentrate on computer vision in my future career.
                         </p>
                     </div>
                 </div>
@@ -353,7 +345,7 @@ https://github.com/BlackrockDigital/startbootstrap-freelancer
 
                     <button class="btn btn-primary btn-sm mb-1" style="pointer-events: none;" type="button" disabled>Odroid</button>
 
-                    <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Beginner.">
+                    <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Beginner">
                         <button class="btn btn-primary btn-sm mb-1" style="pointer-events: none;" type="button" disabled>Adobe Illustrator
                             <small><i class="fa fa-info-circle" aria-hidden="true"></i></small></button>
                     </span>
