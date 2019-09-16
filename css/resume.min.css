@@ -146,7 +146,7 @@
     
     .social-icons a:hover {
         background-color: none;
-        color: #3333b2
+        color: #fba824
     }
     
     .dev-icons {
@@ -261,25 +261,25 @@
     }
     
     .text-primary {
-        color: #a31515!important
+        color: #cc332b!important
     }
     
     a {
-        color: orange
+        color: #1a8743
     }
     
     a:active,
     a:focus,
     a:hover {
-        color: orange
+        color: #1a8743
     }
     
     .btn-primary,
     .btn-primary:hover,
     .btn-primary:active,
     .btn-primary:visited {
-        background-color: red !important;
-        border-color: green !important;
+        background-color: #3970ee !important;
+        border-color: #3970ee !important;
     }
     
     .center-block {
@@ -291,4 +291,8 @@
             float: none;
             margin: 0 auto;
         }
+    }
+    
+    .gif {
+        text-align: center
     }
