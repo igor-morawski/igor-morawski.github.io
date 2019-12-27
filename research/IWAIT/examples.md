@@ -1,7 +1,7 @@
 # Two-Stream Deep Learning Architecture for Action Recognition by Using Extremely Low-Resolution Infrared Thermopile Arrays
-# Igor Morawski, Wen-Nung Lie
+## Igor Morawski, Wen-Nung Lie
 
-## Resources
+
 ### _**Video (YouTube)**_
 
 
