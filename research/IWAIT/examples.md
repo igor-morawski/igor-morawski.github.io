@@ -1,6 +1,7 @@
-# FIR_dataset
+# Two-Stream Deep Learning Architecture for Action Recognition by Using Extremely Low-Resolution Infrared Thermopile Arrays
+# Igor Morawski, Wen-Nung Lie
 
-## Examples
+## Resources
 ### _**Video (YouTube)**_
 
 
