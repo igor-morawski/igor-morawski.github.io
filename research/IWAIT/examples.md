@@ -1,17 +1,16 @@
 # FIR_dataset
 
 ## Examples
-### _**convert2avi.py**_
+### _**Video (YouTube)**_
 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=jsG0Uuz8XXM
 " target="_blank"><img src="http://img.youtube.com/vi/jsG0Uuz8XXM/0.jpg" 
 alt="Sequences visualized examples" width="240" height="180" border="10" /></a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *example.avi* (youtube)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Examples of thermopile sensor array recordings. 
 
-
-### _**sample_gifs.py**_
+### _**Sample actions in the dataset**_
  <table>
   <tr>
     <td><br><img src="examples/falling0.gif" border="10" /></td>
