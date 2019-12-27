@@ -85,3 +85,5 @@ alt="Sequences visualized examples" width="240" height="180" border="10" /></a>
   </tr>
 </table> 
 
+### You can find out more about me on my [personal website](https://igor-morawski.github.io/).
+
