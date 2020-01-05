@@ -85,5 +85,10 @@ alt="Sequences visualized examples" width="240" height="180" border="10" /></a>
   </tr>
 </table> 
 
+###Architecture
+<img src="svg/graph.svg" border="10" />
+**The inputs are temperature sequence and optical flow sequence, respectively.**
+
 ### You can find out more about me on my [personal website](https://igor-morawski.github.io/).
+
 
