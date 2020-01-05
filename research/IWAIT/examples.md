@@ -12,6 +12,7 @@ alt="Sequences visualized examples" width="240" height="180" border="10" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Examples of thermopile sensor array recordings. 
 
 ### _**Sample actions in the dataset**_
+__(you might need to wait a bit if your connection is slow; on mobile devices you can zoom in to load a gif faster)__
  <table>
   <tr>
     <td><br><img src="examples/falling0.gif" border="10" /></td>
@@ -85,9 +86,9 @@ alt="Sequences visualized examples" width="240" height="180" border="10" /></a>
   </tr>
 </table> 
 
-###Architecture
+### Architecture
 <img src="svg/graph.svg" border="10" />
-**The inputs are temperature sequence and optical flow sequence, respectively.**
+__The inputs are temperature sequence and optical flow sequence, respectively.__
 
 ### You can find out more about me on my [personal website](https://igor-morawski.github.io/).
 
