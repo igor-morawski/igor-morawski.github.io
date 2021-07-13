@@ -1,5 +1,5 @@
 ## This website is under construction! More details and the dataset coming soon.
-
+Accepted to IEEE ICIP (International Conference on Image Processing) 2021 in Anchorage, Alaska. Feel free to contact me for a pre-print or more details.
 <br>
 
 # Action Prediction using Extremely Low-Resolution Thermopile Sensor Array for Elderly Monitoring
